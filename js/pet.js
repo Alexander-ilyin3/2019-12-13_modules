@@ -16,9 +16,9 @@ export default class Pet {
 
         if (this.__proto__.constructor.name === 'Dog') duraction = '+1'
 
-        tl.set(pic, {top, left, opacity: 0})
-        tl.to(pic, {duration: .5, top: (top + 30), left: (left * +duraction + 30), opacity: 1})
-        tl.to(pic, {duration: 1, opacity: 0})
+        tl.set(pic, {top, left, opacity: 0, scale: .2})
+        tl.to(pic, {duration: .35, top: (top + 30), left: (left * +duraction + 30), opacity: 1, scale: 1})
+        tl.to(pic, {duration: .5, opacity: 0})
     }
 }
 

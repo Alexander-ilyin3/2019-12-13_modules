@@ -5,7 +5,7 @@ export default class Dog extends Pet {
           super( name, picture )
           this.sound = 'WOUF'
           this.top = 58
-          this.left = 80
+          this.left = 70
     }
 }
 
