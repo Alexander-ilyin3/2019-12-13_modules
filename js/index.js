@@ -5,10 +5,10 @@ import Dog from './dog.js'
 // CreateImage()
 
 let animals = [
-    new Cat('Borya', '../pic/Cat.png'),
-    new Dog('Fedor', '../pic/Dog.png'),
-    new Cat('Borya2', '../pic/Cat.png'),
-    new Dog('Vasya', '../pic/Dog.png'),
+    new Cat('Borya', 'https://github.com/Alexander-ilyin3/2019-12-13_modules/blob/master/pic/Cat.png?raw=true'),
+    new Dog('Fedor', 'https://github.com/Alexander-ilyin3/2019-12-13_modules/blob/master/pic/Dog.png?raw=true'),
+    new Cat('Borya2', 'https://github.com/Alexander-ilyin3/2019-12-13_modules/blob/master/pic/Cat.png?raw=true'),
+    new Dog('Vasya', 'https://github.com/Alexander-ilyin3/2019-12-13_modules/blob/master/pic/Dog.png?raw=true'),
 ]
 
 let container = document.querySelector('#container')
