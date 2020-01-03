@@ -7,7 +7,24 @@
     position: absolute;
 }
 
-div.sound {
+
+div.sound span {
+    font-size: 16px;
+}
+
+#gsap {
+    position: absolute;
+}
+
+#container h1 {
+    text-align: center;
+}
+
+#container > div {
+    position: relative;
+}
+
+#container div.sound {
     position: absolute;
     opacity: 0;
     z-index: 2;
@@ -19,19 +36,6 @@ div.sound {
     background-size: cover; 
     width: 91px;
     height: 60px;
-}
-
-div.sound span {
-    font-size: 16px;
-}
-
-#gsap {
-    position: absolute;
-}
-
-#container > div {
-    position: relative;
-    display: block;
 }
 
 #container .picture-div {
