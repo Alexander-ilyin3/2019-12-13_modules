@@ -9,33 +9,34 @@
 
 div.sound {
     position: absolute;
-    /* top: 58px;
-    left: 28px; */
     opacity: 0;
-    z-index: 10;
+    z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute; 
+    background-image: url('https://github.com/Alexander-ilyin3/2019-12-13_modules/blob/master/pic/dialog-shrinked.png?raw=true'); 
+    background-size: cover; 
+    width: 91px;
+    height: 60px;
 }
 
 div.sound span {
     font-size: 16px;
 }
 
-/* 
-img{
-    max-width: 200px;
-    display: inline-block;
-} */
-
-#canvas {
-    width: 100%;
-    height: 600px;
-}
-
 #gsap {
     position: absolute;
 }
-#container>div {
+
+#container > div {
     position: relative;
+    display: block;
+}
+
+#container .picture-div {
+    background-size: cover; 
+    display: inline-block;
+    width: 200px; 
+    height: 206px
 }
