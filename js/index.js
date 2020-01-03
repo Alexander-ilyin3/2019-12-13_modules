@@ -1,5 +1,5 @@
 import Cat from './cat.js'
-import Dog from './Dog.js'
+import Dog from './dog.js'
 
 // import { CreateImage } from './canvas.js'
 // CreateImage()
