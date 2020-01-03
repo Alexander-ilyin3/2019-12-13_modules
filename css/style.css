@@ -1,4 +1,4 @@
-#container, #container-2 {
+#container {
     white-space: nowrap;
     display: inline-block;
     left: 50%;
@@ -6,7 +6,6 @@
     transform: translate(-50%, -50%);
     position: absolute;
 }
-
 
 div.sound span {
     font-size: 16px;

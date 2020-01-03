@@ -4,8 +4,8 @@ export default class Dog extends Pet {
     constructor( name, picture ) {
           super( name, picture )
           this.sound = 'WOUF'
-          this.left = 120
-          this.top = 66
+          this.top = 58
+          this.left = 80
     }
 }
 
